@@ -23,6 +23,7 @@ import { NotFoundComponent } from './errors/not-found/not-found.component';
 import { ServerErrorComponent } from './errors/server-error/server-error.component';
 import { MemberCardComponent } from './members/member-card/member-card.component';
 import { MemberEditComponent } from './members/member-edit/member-edit.component';
+import { PhotoEditorComponent } from './members/photo-editor/photo-editor.component';
 import { NgxSpinnerModule } from 'ngx-spinner';
 
 
@@ -41,6 +42,7 @@ import { NgxSpinnerModule } from 'ngx-spinner';
     ServerErrorComponent,
     MemberCardComponent,
     MemberEditComponent,
+    PhotoEditorComponent
   ],
   imports: [
     BrowserModule,
